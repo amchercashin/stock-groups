@@ -4,7 +4,7 @@ function addBlankPlot(plotDiv) {
 }
 
 function addTracesToPlot (plot, indices) {
-    Plotly.addTraces(plot, ipc);
+    // Plotly.addTraces(plot, ipc);
     for (index of indices) {
         let trace =  makeTrace(index);
         Plotly.addTraces(plot, trace);

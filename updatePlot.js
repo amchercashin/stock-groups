@@ -9,9 +9,6 @@ async function updateAllTracesLoop (plot, indices, startDate) {
             console.log("start to build: " + index);
             let promises = [];
             promises.push(updateTraceLoop(plot, index, startDate, engine = "stock"));
-            if (index === "RGBITR") {
-                promises.push(updateTraceLoop(plot, index, startDate, engine = "state"));
-            }
 
             Promise.all(promises).then(val => {
                 return Promise.all(val.flat()); 

@@ -9,7 +9,7 @@ function normalize(arr, firstValue) {
 }
 
 function traceIndexByName(indexName) {
-    return indices.findIndex(function(e) {return e === indexName}) + 1
+    return indices.findIndex(function(e) {return e === indexName})
 }
 
 // function expandTimeseries(data) {

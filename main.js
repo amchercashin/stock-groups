@@ -1,7 +1,7 @@
 let plot = document.getElementById("graphDiv");
 
-let indices = [ "RUGBITR1Y", "RUGBITR3Y", "RUGBITR5Y", "RUGBITR10Y", "RUGBITR5+", "RGBITR"];
-let startDate = "2010-12-30";
+let indices = [ "MCFTRR", "MEBCTRR", "MESMTRR", "MEOGTRR", "MEEUTR", "METLTRR", "MEMMTR", "MEFNTR", "MECNTR", "MECHTR", "METNTR"];
+let startDate = "2013-12-30";
             //   2010-12-30
 // let indices = ["MCFTRR", "RGBITR", "RUGBITR10Y", "RUGBITR5Y", "RUGBITR3Y", "RUGBITR1Y"];
 //               2003-02-26  2002-12-30 2
