@@ -1,4 +1,4 @@
 # bond-groups
-How different bonds evolve over time:
+How different stock groups evolve over time:
 
-https://amchercashin.github.io/bond-groups/
+https://amchercashin.github.io/stock-groups/
