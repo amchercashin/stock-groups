@@ -8,7 +8,7 @@ function normalize(arr, firstValue) {
     return arr.map((el, i, arr) => el / firstValue)
 }
 
-function traceIndexByName(indexName) {
+function traceIndexByName(indices, indexName) {
     return indices.findIndex(function(e) {return e === indexName})
 }
 
